@@ -1,0 +1,12 @@
+export const seaport_test = "0x638a8166C25988D7b4C4F91Dd7792C3Dc8DD6459";
+export const seaport="0x00000000006c3852cbEf3e08E8dF289169EdE581";
+// export const seaport_test="0x00000000006c3852cbef3e08e8df289169ede581";//Rinkeby
+// export const zone = "0xaAe6F4f2bca7bE8885732C2879418D8Ab9DAcfC9"
+// export const zone = "0x00000000E88FE2628EbC5DA81d2b3CeaD633E89e"
+export const zone = '0x004C00500000aD104D7DBd00e3ae0A5C00560C00';
+// export const zone='0x0000000000000000000000000000000000000000';
+export const ERC721Token = "0x51f758145ab8ae13ef5afbc75bbe66441810d0e3";
+// export const ERC721Token = "0xd31609a8D79f2e97353EA593e44d9B036B6ed24E";
+export const ERC1155Token = "0x2dd31989BecD337fB52Ff56B1bDd987531c0dB7F";
+export const LOOT = "0x721A1B990699eE9D90b6327FaaD0A3E840aE8335"
+export const wrapToken = "0xc778417E063141139Fce010982780140Aa0cD5Ab"

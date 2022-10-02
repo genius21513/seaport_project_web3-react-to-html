@@ -1,0 +1,98 @@
+.cardContentContainer{
+    border-radius: 4em;
+    border: 2px solid white;
+    background-color:white;
+    height:26em;
+    width: 45em;
+
+}
+.cardbody{
+    display: flex;
+    flex-direction: row;
+}
+.imgContanier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imgContanier > img{
+    width: 16em;
+    height: 16em;
+    border: 1px solid white;
+    border-radius: 1em;
+}
+.infoContainer{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    height: 20em;
+    padding-top: 0px;
+}
+.infoContainer > .textPart{
+    height: 6em;
+    text-align: left;
+    display: flex;
+}
+
+.cardFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footerContainer > img{
+    width: 2em;
+    height: 2em;
+}
+.addressText{
+    padding-left: 0.3em;
+    font-weight: bold;
+    font-size: 1.4em;       
+}
+.contranctAddress{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.cardView{
+    height: 20em;
+    width: 20em;
+    background-color: blueviolet;
+}
+.prevBtn,.nextBtn{
+    font-size: 14;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position:absolute;
+    height: 16em;
+    width: 4em;   
+}
+.prevBtn{
+    left: 2.8em;
+    border-radius: 1em 0px 0px 1em;
+    background-image:linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0)); 
+}
+.prevBtn:hover,.prevBtn:active{
+    background-image:linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0.0));
+}
+.nextBtn{
+    right: 2.7em;
+    border-radius: 0em 1em 1em 0em;
+    background-image:linear-gradient(to left,rgba(0,0,0,0.8),rgba(0,0,0,0)); 
+}
+.nextBtn:hover,.nextBtn:active{
+    background-image:linear-gradient(to left,rgba(0,0,0,0.9),rgba(0,0,0,0.0));
+}

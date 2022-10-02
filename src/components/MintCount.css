@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.minusBtn,.plusBtn{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: -0.2em;   
+    cursor: pointer;
+    user-select: none;
+}
+.mountText{
+    text-align: center;
+    width: 80%;
+    font-size: 1em;
+    margin-left: 1em;
+    border-left: 2px solid white;
+    margin-right: 0.8em;
+    border-right: 2px solid white;
+}
